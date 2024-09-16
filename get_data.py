@@ -44,7 +44,7 @@ def unzip_file(file_name, extract_to='data'):
 def main():
     """Driven Function"""
 
-    data01 = 'pandas01Data.zip'
+    data01 = 'pandas02Data.zip'
     download_file(SERVER_URL, data01)
     unzip_file(data01)
 
