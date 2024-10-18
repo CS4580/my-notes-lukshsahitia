@@ -2,7 +2,7 @@ import requests
 import zipfile
 import os
 
-SERVER_URL = 'http://icarus.cs.weber.edu/~hvalle/cs4580/data/plottingDemo01.zip'
+SERVER_URL = 'http://icarus.cs.weber.edu/~hvalle/cs4580/data/seaborData.zip'
 
 def download_file(url, file_name):
     """
@@ -44,7 +44,7 @@ def main():
     """Driven Function"""
 
     # Define the name of the zip file to download
-    zip_file_name = 'plottingDemo01.zip'
+    zip_file_name = 'ign_scores.zip'
 
     # Download the zip file
     download_file(SERVER_URL, zip_file_name)
